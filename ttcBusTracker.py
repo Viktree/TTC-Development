@@ -2,7 +2,7 @@
 
 """ === ttcBusTracker.py ===
 
-This file creates a python API for tracking TTC Bus stops using the
+This file serves as a python API for tracking TTC Bus stops using the
 collection of xml files provided by Nextbus
 
 Disclaimer: 
@@ -36,7 +36,6 @@ __all__ = [
 # Gets the key for Google Maps API from separate file called key.txt
 with open("key.txt") as f:
     key = f.read()
-    print(key)
 
 def GMapsRoute(point_A, point_B, key=key):
 	""" Returns the distance and time between two locations
