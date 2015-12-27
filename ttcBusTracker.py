@@ -33,7 +33,7 @@ __all__ = [
     'GMapsRoute',
 ]
 
-def GMapsRoute(point_A, point_B, key="AIzaSyAwNEyAajRMeSPwk6R19x61Laop_g2eEAE"):
+def GMapsRoute(point_A, point_B, key="key here"):
 	""" Returns the distance and time between two locations
 
 	Uses Google Maps Distance Matrix API to compute the distance and time between locations.
